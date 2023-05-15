@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.descricao {
+	background-color: #F8F8F8;
+	padding: 20px;
+}
+
+descricao__titulo {
+	margin: 0;
+}
+
+.aromas {
+    display: flex;    
+	background-color: #FFF7E0;
+	padding: 20px;
+}
+
+.aromas__conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.aromas__titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+
+.aromas__lista {
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.beneficios {
+	background-color: #E0F2F7;
+	padding: 20px;
+}
+
+.formulario {
+	background-color: #F8F8F8;
+	padding: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type=text], input[type=email] {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+input[type=submit] {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #3E8E41;
+}
